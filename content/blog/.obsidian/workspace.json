@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KISS Your Dependencies (Goodbye).md",
+                "file": "KISS Your Dependencies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KISS Your Dependencies (Goodbye)"
+              "title": "KISS Your Dependencies"
             }
           },
           {
@@ -27,16 +27,240 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KISS Your Dependencies (Goodbye).md",
+                "file": "KISS Your Dependencies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KISS Your Dependencies (Goodbye)"
+              "title": "KISS Your Dependencies"
+            }
+          },
+          {
+            "id": "a590567e1b0bd3be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inspecting Docker Compose Traffic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inspecting Docker Compose Traffic"
+            }
+          },
+          {
+            "id": "50fa7a7fe4b9fdad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fetching Data Using React Query + React Router.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fetching Data Using React Query + React Router"
+            }
+          },
+          {
+            "id": "3f71a74a81807437",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Monorepo War Story.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Monorepo War Story"
+            }
+          },
+          {
+            "id": "d360fb403ef41e10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Team Agreement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Team Agreement"
+            }
+          },
+          {
+            "id": "8aae0f397ea29af3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Migrating to Firebase Storage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Migrating to Firebase Storage"
+            }
+          },
+          {
+            "id": "33d7c1ca51516fce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manual Testing vs Automated Testing For MR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Manual Testing vs Automated Testing For MR"
+            }
+          },
+          {
+            "id": "b4f16eefd05bfd7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interviewing Lessons.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interviewing Lessons"
+            }
+          },
+          {
+            "id": "7685eb88ffaaa732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digging up an API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digging up an API"
+            }
+          },
+          {
+            "id": "a9e4df9f7b0a38b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Banger Articles Every SWE Should Read.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Banger Articles Every SWE Should Read"
+            }
+          },
+          {
+            "id": "92ce8f9bbeb18096",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO for Bad Meetings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO for Bad Meetings"
+            }
+          },
+          {
+            "id": "933f7937d1a8819a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Executable Documentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Executable Documentation"
+            }
+          },
+          {
+            "id": "a9245479b9497582",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Why Debugging Takes So Long.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Why Debugging Takes So Long"
+            }
+          },
+          {
+            "id": "5525c1d326d352d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Never Pass Booleans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Never Pass Booleans"
+            }
+          },
+          {
+            "id": "b71bc75c556220b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Blog Post.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blog Post"
+            }
+          },
+          {
+            "id": "a959a500e9edf506",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "So You're a Manager Now?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "So You're a Manager Now?"
+            }
+          },
+          {
+            "id": "02ec2ff28ac81c36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KISS Your Dependencies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "KISS Your Dependencies"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -109,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KISS Your Dependencies (Goodbye).md",
+                "file": "KISS Your Dependencies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +343,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for KISS Your Dependencies (Goodbye)"
+              "title": "Backlinks for KISS Your Dependencies"
             }
           },
           {
@@ -128,12 +352,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KISS Your Dependencies (Goodbye).md",
+                "file": "KISS Your Dependencies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from KISS Your Dependencies (Goodbye)"
+              "title": "Outgoing links from KISS Your Dependencies"
             }
           },
           {
@@ -171,13 +395,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KISS Your Dependencies (Goodbye).md",
+                "file": "KISS Your Dependencies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KISS Your Dependencies (Goodbye)"
+              "title": "Outline of KISS Your Dependencies"
             }
           }
         ]
@@ -198,11 +422,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "4c71c10d3ef57460",
+  "active": "02ec2ff28ac81c36",
   "lastOpenFiles": [
+    "Why Debugging Takes So Long.md",
+    "TODO for Bad Meetings.md",
+    "Team Agreement.md",
+    "So You're a Manager Now?.md",
+    "Never Pass Booleans.md",
+    "Monorepo War Story.md",
+    "Migrating to Firebase Storage.md",
+    "Manual Testing vs Automated Testing For MR.md",
+    "KISS Your Dependencies.md",
+    "Interviewing Lessons.md",
+    "Inspecting Docker Compose Traffic.md",
+    "How to Level Up As A SWE.md",
+    "Fetching Data Using React Query + React Router.md",
+    "Executable Documentation.md",
+    "Digging up an API.md",
+    "Debuggers VS Print Statements.md",
+    "Banger Articles Every SWE Should Read.md",
     "Templates/Blog Post.md",
-    "Untitled.md",
-    "KISS Your Dependencies (Goodbye).md",
     "Templates",
     "Templates/blob_post",
     "Templates"

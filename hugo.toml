@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My Two Bits'
+title = 'NateSpace'
 author = "Nathan Harris"
 DefaultContentLanguage = "en"
 ignoreFiles = ['blog/Templates/*']
@@ -12,11 +12,26 @@ sectionPagesMenu = "main"
 [params]
 noindex = false
 
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/PeterBParker"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url="mailto:nathanelliottharris@gmail.com"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url="https://www.linkedin.com/in/nathaneharris/"
+
 [params.theme]
-palette = 'solarized-light'
+palette = 'dracula'
 
 [params.about]
-title="My Two Bits"
+title="Nathan Harris"
 description="always improving. never perfect."
 
 [menu]
