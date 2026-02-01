@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Two Bits'
+author = "Nathan Harris"
+DefaultContentLanguage = "en"
+ignoreFiles = ['blog/Templates/*']
+
+theme = 'risotto'
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = 'solarized-light'
+
+[params.about]
+title="My Two Bits"
+description="always improving. never perfect."
+
