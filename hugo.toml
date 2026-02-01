@@ -19,3 +19,15 @@ palette = 'solarized-light'
 title="My Two Bits"
 description="always improving. never perfect."
 
+[menu]
+  [[menu.main]]
+  identifier="about"
+  name="About"
+  url="/about/"
+  weight=10
+
+  [[menu.blog]]
+  identifier="blog"
+  name="Blog"
+  url="/blog/"
+  weight=10

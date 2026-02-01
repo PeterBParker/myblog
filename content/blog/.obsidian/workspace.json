@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test_Post.md",
+                "file": "KISS Your Dependencies (Goodbye).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test_Post"
+              "title": "KISS Your Dependencies (Goodbye)"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test_Post.md",
+                "file": "KISS Your Dependencies (Goodbye).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test_Post"
+              "title": "KISS Your Dependencies (Goodbye)"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test_Post.md",
+                "file": "KISS Your Dependencies (Goodbye).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Test_Post"
+              "title": "Backlinks for KISS Your Dependencies (Goodbye)"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test_Post.md",
+                "file": "KISS Your Dependencies (Goodbye).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Test_Post"
+              "title": "Outgoing links from KISS Your Dependencies (Goodbye)"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test_Post.md",
+                "file": "KISS Your Dependencies (Goodbye).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Test_Post"
+              "title": "Outline of KISS Your Dependencies (Goodbye)"
             }
           }
         ]
@@ -202,7 +202,7 @@
   "lastOpenFiles": [
     "Templates/Blog Post.md",
     "Untitled.md",
-    "Test_Post.md",
+    "KISS Your Dependencies (Goodbye).md",
     "Templates",
     "Templates/blob_post",
     "Templates"
