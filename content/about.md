@@ -2,7 +2,7 @@
 title="About"
 date="2026-01-31"
 tags=["post"]
-draft=true
+draft=false
 +++
 I love making stuff! Currently writing sweet servers at work and a graphic novel at home. Latest book recommendation: 
 - Johnathan Strange and Mr. Norrell by Susanna Clarke.
