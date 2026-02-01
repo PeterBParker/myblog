@@ -38,7 +38,7 @@ description="always improving. never perfect."
   [[menu.main]]
   identifier="about"
   name="About"
-  url="/about/"
+  url="/"
   weight=10
 
   [[menu.blog]]
