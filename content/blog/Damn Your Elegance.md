@@ -11,7 +11,7 @@ With those words my compilers professor shattered my iridescent idol of beautifu
 
 Perhaps I was bit dramatic then. Did I mention I did theatre in high-school?
 
-Yet, years later, I think I've come to understand him. What young software engineers (like myself and the annual summer interns that sift through my team) can value minimal function signatures and reused pointers as signs of elegant code, in many cases may be unnecessary optimizations that reduce the lifetime of your logic. One such aspect of this is dual-purpose variables.
+Yet, years later, I think I've come to understand him. Young software engineers can  tend to value minimal function signatures and reused pointers as signs of elegant code. But in many cases these may be unnecessary optimizations that reduce the mantainability of your logic. One such aspect of this I recently noticed when reviewing a new hire's MR is dual-purpose variables.
 ## Dual-Purpose Variables?
 A dual-purpose variable is when a variable is named for one purpose and is reused for a secondary check that isn't directly connected to its initial purpose. This practice adds complexity and hides intent. Here's an example: 
 
@@ -24,7 +24,7 @@ ZooEnclosure {
 }
 ```
 
-If we are writing to a test to make sure our server correctly does all the CRUD operations on the ZooEnclosures as we’d expect, it might be useful to write a helper function that validates the result.
+If we are writing a test to make sure our server correctly does all the CRUD operations on the ZooEnclosures as we’d expect, it might be useful to write a helper function that validates the result.
 
 We whip up a quick function: 
 ```go
@@ -72,11 +72,11 @@ ValidateZooEnclosures(
 
 ```
 
-So now when using the function, we don’t need another parameter, we just have to pass an empty string for the `expectedResident` to tell the function to assert the absence. The fewer params have to be passed, the better, right! Saved memory and all that.
+So now when using the function, we don’t need another parameter, we just have to pass an empty string for the `expectedResident` to tell the function to assert the absence. The fewer params that have to be passed, the better, right! Saved memory and all that.
 
 Well, sometimes! But in this case a `ZooEnclosure` may exist without a `Resident`, say it's being prepared for another exhibit or the penguins finally escaped and made it to Antartica. So it's entirely possible for someone to use an empty string as a valid value they're checking for. To reuse a variable for a disparate purpose by relying on a hardcoded value that "flags" a different branch of logic is obtuse and sneaky.
 
-If another engineer comes along later to debug the tests they are going to have to spend a minute reconciling the variable name with its usage and the assert beneath it. Then they'll need to think through why an empty string would signify that the object shouldn't exist in the array not knowing it was a usage convention defined by an author long ago (at least three months). And this kind of friction accumulates. Especially when reading legacy code, and everything is unfamiliar and every shadow might hold a venomous bug ready to stab me in the back of my tender, soft, programmer hands. Instead consider this slightly more verbose function and ask yourself which you would rather come across in a strange and alien codebase.
+If another engineer comes along later to debug the tests, they are going to have to spend a minute reconciling the variable name with its usage and the assert beneath it. Then they'll need to think through why an empty string would signify that the object shouldn't exist in the array not knowing it was a usage convention defined by an author looong ago (at least three months). And this kind of friction accumulates. Especially when reading legacy code, and everything is unfamiliar and every shadow might hold a venomous bug ready to stab me in the back of my tender, soft, programmer hands. Instead consider this slightly more verbose function and ask yourself which you would rather come across in a strange and alien codebase.
 
 ```go
 ValidateZooEnclosures(
